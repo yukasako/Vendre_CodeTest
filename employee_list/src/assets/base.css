@@ -1,0 +1,34 @@
+/* Fonts */
+/* Work Sans */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* Oswald */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
+:root {
+  --space-0: 0px;
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-40: 40px;
+  --space-48: 48px;
+  --space-72: 72px;
+  --space-100: 100px;
+
+  --color-1: #fff;
+  --color-2: #5333ed;
+  --color-3: #757575;
+  --color-4: #eeecfc;
+  --color-5: #000000;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Work Sans';
+}
+
+body {
+  min-height: 100vh;
+}
