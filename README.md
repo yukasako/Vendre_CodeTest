@@ -1,4 +1,4 @@
-# Vendre Code Test
+# Internship Code Test
 
 **Company:** Vendre  
 **Student:** Yukako Sakozono Isacson
