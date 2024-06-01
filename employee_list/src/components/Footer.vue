@@ -50,7 +50,7 @@ footer {
 
 @media (min-width: 768px) {
   .container {
-    width: 100vw;
+    width: 100%;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
