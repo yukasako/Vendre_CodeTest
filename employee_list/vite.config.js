@@ -12,7 +12,4 @@ export default defineConfig({
     },
   },
   base: "/Vendre_CodeTest/",
-  // build: {
-  //   outDir: "docs",
-  // },
 });

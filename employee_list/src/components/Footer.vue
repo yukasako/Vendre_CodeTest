@@ -1,13 +1,16 @@
 <template>
   <footer>
-    <div class="optimisers">
-      <Optimisers />
-      <p>
-        Vendre är ett företag inom
-        <a target="_blank" href="https://www.optimizers.nl/">Optimizers</a>
-      </p>
+    <div class="container">
+      <div class="empty"></div>
+      <div class="optimisers">
+        <Optimisers />
+        <p>
+          Vendre är ett företag inom
+          <a target="_blank" href="https://www.optimizers.nl/">Optimizers</a>
+        </p>
+      </div>
+      <img src="./icons/gasell.png" alt="gasell-image" class="gasell-image" />
     </div>
-    <img src="./icons/gasell.png" alt="gasell-image" class="gasell-image" />
   </footer>
 </template>
 
@@ -23,12 +26,19 @@ export default {
 <style scoped>
 footer {
   width: 100%;
+}
+
+.container {
+  width: 100%;
   background: var(--color-1);
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 30px;
   gap: var(--space-8);
+}
+.empty {
+  display: none;
 }
 .optimisers {
   text-align: center;
@@ -39,12 +49,15 @@ footer {
 }
 
 @media (min-width: 768px) {
-  footer {
-    width: 60%;
+  .container {
+    width: 100vw;
     flex-direction: row;
-    justify-content: space-between;
-    margin-left: auto;
-    margin-right: var(--space-72);
+    justify-content: space-around;
+    align-items: center;
+  }
+  .empty {
+    display: block;
+    width: 40px;
   }
 }
 </style>
